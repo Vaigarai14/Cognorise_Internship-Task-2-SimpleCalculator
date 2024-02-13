@@ -111,3 +111,7 @@ body {
   color: var(--themecolor);
   font-weight: bolder;
 }
+
+#title a {
+  text-decoration: none;
+}
