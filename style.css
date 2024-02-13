@@ -1,0 +1,113 @@
+body {
+  background-color: rgb(39, 39, 39);
+}
+
+:root {
+  --numbertextcolor: #646464;
+  --themecolor: #fb772d;
+  --majorbgcolor: rgb(236, 236, 236);
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40em;
+}
+
+.header-name {
+  color: var(--themecolor);
+  font-size: 1.5em;
+  text-align: center;
+  padding: 0 0.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.icon {
+  color: white;
+  margin: 0.5em;
+}
+
+.bgcolor {
+  background-color: white;
+}
+
+.iconcolor {
+  color: black;
+}
+
+.light {
+  color: #fb772d;
+  margin: 0.5em;
+}
+
+#calculator {
+  padding: 2em;
+  border-radius: 2em;
+  box-shadow: 10px 10px 10px 5px;
+}
+
+#title {
+  display: inline-flex;
+  align-items: center;
+}
+
+#displaynum {
+  width: 250px;
+  padding: 1em 0;
+  margin: 0.7em 0;
+  margin-left: 0.5em;
+  border-radius: 0.5em;
+  border: none;
+  background-color: var(--majorbgcolor);
+  text-align: right;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 50px);
+  gap: 1em;
+}
+
+.specialchar {
+  display: flex;
+  flex-direction: column;
+  font-size: x-large;
+  gap: 1em;
+}
+
+.specialchar .numbtn {
+  padding: 1em;
+  color: var(--themecolor);
+  font-weight: bolder;
+  margin-left: 1em;
+  width: 4em;
+}
+
+.numgrid {
+  display: flex;
+  justify-content: center;
+}
+
+.numbtn {
+  color: var(--numbertextcolor);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  width: 4em;
+}
+
+.numbtn:hover {
+  background-color: rgb(211, 213, 214);
+}
+
+.grid .bg,
+.bg:hover {
+  background: var(--themecolor);
+  color: white;
+}
+
+.themecolor {
+  color: var(--themecolor);
+  font-weight: bolder;
+}
