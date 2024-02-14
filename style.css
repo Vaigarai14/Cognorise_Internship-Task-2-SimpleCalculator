@@ -3,9 +3,10 @@ body {
 }
 
 :root {
-  --numbertextcolor: #646464;
+  --numbertextcolor: #4e4e4e;
   --themecolor: #fb772d;
-  --majorbgcolor: rgb(236, 236, 236);
+  --majorbgcolor: rgb(219, 23, 23);
+  --numberbgcolor: rgb(224, 222, 222);
 }
 
 #container {
@@ -29,7 +30,7 @@ body {
 }
 
 .bgcolor {
-  background-color: rgb(233, 232, 232);
+  background-color: rgb(238, 237, 237);
 }
 
 .iconcolor {
@@ -60,7 +61,7 @@ body {
   margin-left: 0.5em;
   border-radius: 0.5em;
   border: none;
-  background-color: var(--majorbgcolor);
+  background-color: var(--numberbgcolor);
   text-align: right;
 }
 
@@ -91,6 +92,7 @@ body {
 }
 
 .numbtn {
+  background-color: var(--numberbgcolor);
   color: var(--numbertextcolor);
   border-radius: 5px;
   border: none;

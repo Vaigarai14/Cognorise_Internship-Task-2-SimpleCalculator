@@ -37,7 +37,6 @@ function Calculate() {
     let result = parseFloat(elements[0]);
     for (let i = 1; i < elements.length; i += 2) {
         if (elements[i + 1] === "" || elements[i].includes("Error")) {
-            console.log(elements[i + 1] === "", elements[i + 1]);
             return inputfield.value = "Error"
         }
         const operator = elements[i];
