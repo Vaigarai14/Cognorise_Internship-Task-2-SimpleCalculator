@@ -6,7 +6,7 @@ body {
   --numbertextcolor: #4e4e4e;
   --themecolor: #fb772d;
   --majorbgcolor: rgb(219, 23, 23);
-  --numberbgcolor: rgb(224, 222, 222);
+  --numberbgcolor: rgb(233, 233, 233);
 }
 
 #container {
@@ -30,7 +30,7 @@ body {
 }
 
 .bgcolor {
-  background-color: rgb(238, 237, 237);
+  background-color: white;
 }
 
 .iconcolor {
@@ -54,15 +54,16 @@ body {
 }
 
 #displaynum {
-  width: 250px;
-  padding: 1em 0;
-  padding-right: 1em;
+  width: 230px;
+  padding: 0.5em 0;
+  padding-right: 0.8em;
   margin: 0.7em 0;
   margin-left: 0.5em;
   border-radius: 0.5em;
   border: none;
   background-color: var(--numberbgcolor);
   text-align: right;
+  font-size: larger;
 }
 
 .grid {
