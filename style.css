@@ -55,6 +55,7 @@ body {
 #displaynum {
   width: 250px;
   padding: 1em 0;
+  padding-right: 1em;
   margin: 0.7em 0;
   margin-left: 0.5em;
   border-radius: 0.5em;
