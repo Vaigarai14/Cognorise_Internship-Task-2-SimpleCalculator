@@ -19,7 +19,6 @@ body {
 .header-name {
   color: var(--themecolor);
   font-size: 1.5em;
-  text-align: center;
   padding: 0 0.5em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -49,8 +48,9 @@ body {
 }
 
 #title {
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  width: max-content;
 }
 
 #displaynum {
