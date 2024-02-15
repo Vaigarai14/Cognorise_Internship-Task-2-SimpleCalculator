@@ -4,7 +4,6 @@ const githubcolor = document.getElementById("github");
 const calculator = document.getElementById("calculator");
 const inputfield = document.getElementById("displaynum");
 
-inputfield.value = 0
 
 const lightmode = () => {
     calculator.classList.toggle("bgcolor");
@@ -21,12 +20,15 @@ function getOperator(operator) {
             inputfield.value += operator;
         }
     } else {
+        console.log(inputfield.value);
         inputfield.value += " " + operator + " ";
     }
 }
 
 function clearitem() {
-    inputfield.value = "";
+    if (inputfield.value != 0) {
+        inputfield.value = "";
+    }
 }
 
 function Calculate() {
@@ -65,5 +67,7 @@ function Calculate() {
 }
 
 function deleteitem() {
-    inputfield.value = inputfield.value.slice(0, -1);
+    if (inputfield.value != 0) {
+        inputfield.value = inputfield.value.slice(0, -1);
+    }
 }
